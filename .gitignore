@@ -1,5 +1,7 @@
 /node_modules/
+/assets/
 useless.js
 app.js
 testing.js
 realMovieList.json
+movieList.json

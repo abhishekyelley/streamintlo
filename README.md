@@ -2,6 +2,8 @@
 
 ⚠️ Currently only supports H.264 mp4 files. Need to find a solution.
 
+⚠️ HTML5 only supoorts `.vtt` subtitles provided as a separate file.
+
 ## Setup
 
 * NOTE: Make sure to get node and npm installed
