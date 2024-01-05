@@ -1,0 +1,124 @@
+:root {
+    --heading_text_color: white;
+    --background_color: #163142;
+}
+
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: var(--heading_text_color);
+    /* background-color: var(--background_color); */
+}
+
+.index-html {
+    margin: 20px;
+    background-color: var(--background_color);
+}
+.player-html{
+    margin: 20px;
+    background-color: black;
+}
+
+
+
+.video-center{
+    display: flex;
+    justify-content: center;
+}
+.video-container{
+    width: 1000px;
+    max-width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+.video-player{
+    width: 100%;
+}
+
+.picker-container{
+    display: flex;
+    justify-content: center;
+}
+.movie-picker {
+    max-width: 1200px;
+    /*margin: 0 auto; */
+    display: flex;
+    /* gap: 1rem; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.movie-item {
+    --text_color: blanchedalmond;
+    --shadow_color: #41484e;
+    /* #f3cf98 */
+    font-size: 24px;
+    font-weight: bold;
+    color: blanchedalmond;
+    text-decoration: wavy;
+    width: 300px;
+    /* height: 400px; */
+    border: 3px solid var(--text_color);
+    border-radius: 20px;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 10px 10px var(--shadow_color);
+    user-select: none;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.2s ease-out;
+}
+
+.movie-item:hover {
+    background-color: blanchedalmond;
+    color: black;
+    cursor: pointer;
+    box-shadow: 10px 10px rgb(110, 97, 77);
+    /* box-shadow: none; */
+}
+
+.movie-item:active {
+    background-color: var(--background_color);
+    color: white;
+    box-shadow: none;
+    border: 3px dashed white;
+}
+
+.main-heading {
+    font-size: 80px;
+    user-select: none;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 750px) {
+    .index-html {
+        margin: 15px;
+    }
+
+    .player-html {
+        margin: 15px;
+    }
+
+    .movie-item {
+        font-size: 16px;
+        width: 150px;
+        /* height: 200px; */
+        box-shadow: 10px 10px var(--shadow_color);
+        /* text-align: left; */
+    }
+
+    .main-heading {
+        font-size: 30px;
+    }
+
+    .video-container {
+        width: auto;
+        margin: 20px;
+    }
+}

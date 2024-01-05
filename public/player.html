@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Player - Streamintlo</title>
+</head>
+
+<body class="player-html">
+    <h1 class="main-heading" id="movieName"><a style="text-decoration:none;" href="/">🏠 </a>Video Not Found!</h1>
+    <!-- container to center video -->
+    <div class="video-center">
+        <!-- container to limit video dimensions -->
+        <div class="video-container">
+            <!-- video element and source -->
+            <video class="video-player" id="moviePlayer" controls>
+                <source id="movieSource" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <script src="player.js"></script>
+</body>
+
+</html>

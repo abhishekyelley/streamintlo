@@ -1,0 +1,19 @@
+{
+    "default": {
+        "movieTitle": "Default Video (2023)",
+        "moviePath": "default.mp4"
+    },
+    "big-buck-bunny": {
+        "movieTitle": "Big Buck Bunny (2008)",
+        "moviePath": "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+    },
+    "vid-webm": {
+        "movieTitle": "Vid webm (2023)",
+        "moviePath": "vid.webm"
+    },
+    "ted": {
+        "movieTitle": "Ted Talk (idk)",
+        "moviePath": "TED_TALK/(Demo Subtitles) TED Talk.mp4",
+        "subtitles": ["TED_TALK/(Demo Subtitles) TED Talk.vtt"]
+    }
+}
